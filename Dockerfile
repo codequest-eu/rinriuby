@@ -1,4 +1,4 @@
-FROM ruby:2.3.0
+FROM ruby:2.6.0
 
 # Run updates
 RUN apt-get update -qq && apt-get install -y r-base
